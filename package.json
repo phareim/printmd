@@ -1,0 +1,28 @@
+{
+  "name": "printmd",
+  "version": "1.0.0",
+  "description": "utility for printing markdown-files to pdf from the command-line.",
+  "main": "printmd.js",
+  "dependencies": {
+    "markdown-pdf": "^5.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phareim/printmd"
+  },
+  "keywords": [
+    "markdown",
+    "pdf",
+    "windows"
+  ],
+  "author": "Petter Hareim <phareim@gmail.com> (http://twitter.com/phareim)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phareim/printmd/issues"
+  },
+  "homepage": "https://github.com/phareim/printmd"
+}
