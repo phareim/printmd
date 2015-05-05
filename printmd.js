@@ -8,8 +8,9 @@ if(process.argv[2] === null) {
 }
 
 var filename = process.argv[2];
-var tofile = filename+".pdf";
-if(process.argv[3] !== null) {
+var tofile = process.argv[2]+".pdf";
+
+if(process.argv[3] != null) {
 	tofile = process.argv[3];
 };
 
